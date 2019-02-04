@@ -3,7 +3,7 @@ Feature: Job page
 
   Background:
     Given I am on "Careers Page" page
-    Then Page title should be "Careers"
+    Then Page title should be "Explore Professional Growth Opportunities | EPAM Careers"
     When I type "Developer" in "Keyword in Search Form"
     And I click on "Find in Search Form"
     Then I should be on "Offers Page" page

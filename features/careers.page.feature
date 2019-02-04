@@ -3,7 +3,7 @@ Feature: Careers page
 
   Background:
     Given I am on "Careers Page" page
-    Then Page title should be "Careers"
+    Then Page title should be "Explore Professional Growth Opportunities | EPAM Careers"
 
   Scenario Outline: Click on field and check its dropdown visibility on the screen
     When I click on "<field>"
